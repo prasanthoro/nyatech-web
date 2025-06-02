@@ -1,0 +1,15 @@
+{
+  "redirects": [
+    {
+      "source": "/tradex.php",
+      "destination": "/index.html",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/:path*",
+      "destination": "/:path*.html"
+    }
+  ]
+}
