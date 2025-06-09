@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-black text-white font-sans">
+    <!-- Navbar -->
+    <header class="absolute top-0 left-0 w-full z-10">
+      <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+        <!-- Logo -->
+        <div class="text-white text-xl font-bold">
+           <img class="w-[261.25px] h-[50px] flex-shrink-0" src="/public/images/image 1 1.webp" alt="Logo">
+        </div>
+        <!-- Nav Links -->
+        <nav class="hidden md:flex space-x-6 justify-start text-white text-[16px]text-bottom font-normal">
+          <a href="#" class="font-size-[80px] font-normal text-white ">Home</a>
+          <a href="#" class="font-size-[90px] font-normal text-white">About Us</a>
+          <a href="#" class="font-size-[20px] font-normal text-white">Services</a>
+          <a href="#" class="font-size-[20px] font-normal text-white">How It Works</a>
+          <a href="#" class="font-size-[20px] font-normal text-white">Testimonials</a>
+          <a href="#" class="text-yellow-400 border border-2-yellow-600 px-6 py-2  rounded font-size-[20px] font-weight-[400]">Contact Us</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative h-screen flex items-center justify-center bg-cover bg-center" style="background-image: url('/public/images/Desktop\ -\ 34.webp')">
+      <!-- <div class="absolute inset-0 bg-black bg-opacity-70"></div> -->
+      <!-- <div class="relative z-10 text-center">
+        <h1 class="text-5xl font-normal font-serif font-size-66px line-height-normal font-light mb-4 color-#FFF">Nyaya Tech</h1>
+        <p class="text-xl font-weight-[400] font-size-[36px] color-#FFF">Justices Reimagined Through Technology</p>
+      </div> -->
+       <div class="relative z-10 bg-[#000000.65] bg-opacity-70 text-white flex flex-col items-center justify-center rounded-full w-md h-md text-center p-10 ">
+    <h1 class="text-5xl font-serif font-light leading-tight mb-4">Nyaya Tech</h1>
+    <p class="text-xl font-normal leading-snug ">Justices Reimagined Through Technology</p>
+  </div>
+    </section>
+    <section class="bg-white text-black py-20 px-6 lg:px-20">
+  <div class="text-center mb-16">
+    <h2 class="text-4xl font-style-normal text-black font-serif mb-4 font-bold text-normal ">About Us</h2>
+    <p class="text-lg max-w-3xl mx-auto font-color-#0D0D0D">
+      We provide End-to-end legal assistance, from basics to verdicts – combining SaaS Full Stack Legal Management System.
+    </p>
+  </div>
+
+  <div class="flex flex-col lg:flex-row items-center justify-center gap-12">
+    <!-- Left Image -->
+    <div class="w-full lg:w-1/2 flex justify-center ">
+      <img src="/public/images/group.svg" alt="Legal Icons" class="w-lg bg-bottom">
+    </div>
+
+    <!-- Right Content -->
+    <div class="w-full lg:w-1/2 space-y-12">
+      <div>
+        <h3 class="text-2xl font-semibold mb-2">What We Do</h3>
+        <p class="text-base text-black-700">
+          We provide comprehensive legal support using cutting-edge technology and a network of verified legal experts.
+          Our platform guides you through every step of your legal journey — from initial filing to final verdict — ensuring you're never alone navigating the complex legal system.
+        </p>
+      </div>
+      <div>
+        <h3 class="text-2xl font-semibold mb-2">Our Mission</h3>
+        <p class="text-base text-black-700">
+          Making legal help accessible, affordable, and tech-driven for all. We believe that quality legal assistance should be a right, not a privilege.
+          By combining AI technology with human expertise, we’re democratizing access to justice across India.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="bg-white text-black py-20 px-6 lg:px-20">
+  <div class="text-center mb-16">
+    <h2 class="text-4xl  text-black text-normal font-serif mb-4 font-bold">Our Services</h2>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 text-center">
+    <!-- Service 1 -->
+    <div class="space-y-3">
+      <div class=" flex justify-center text-3xl ">
+        <img src="/public/images/Frame.svg" alt="Legal Icons">
+      </div>
+      <h3 class="text-xl  text-black font-semibold">AI Legal Analysis</h3>
+      <p class="text-sm text-gray-700">
+        Advanced algorithm that analyze legal documents and precedent with unprecedented accuracy and speed.
+      </p>
+    </div>
+
+    <!-- Service 2 -->
+    <div class="space-y-3">
+      <div class=" flex justify-center text-3xl">
+        <img src="/public/images/Frame1.svg" alt="Legal Icons">
+      </div>
+      <h3 class="text-xl font-semibold">Smart Contracts</h3>
+      <p class="text-sm text-gray-700">
+        Blockchain-based contracts that execute automatically when predefined conditions are met, ensuring compliances.
+      </p>
+    </div>
+
+    <!-- Service 3 -->
+    <div class="space-y-3">
+      <div class=" flex justify-center text-3xl">
+        <img src="/public/images/Frame2.svg" alt="Legal Icons">
+      </div>
+      <h3 class="text-xl font-semibold">Compliance Automation</h3>
+      <p class="text-sm text-gray-700">
+        System that monitor regulatory changes and automation update your compliance protocols.
+      </p>
+    </div>
+
+    <!-- Service 4 -->
+    <div class="space-y-3">
+     <div class=" flex justify-center text-3xl">
+        <img src="/public/images/Frame3.svg" alt="Legal Icons">
+      </div>
+      <h3 class="text-xl font-semibold">Legal Data Analytics</h3>
+      <p class="text-sm text-gray-700">
+        Transform your legal data into actionable insights with our advanced analytics platform.
+      </p>
+    </div>
+
+    <div class="space-y-3">
+       <div class=" flex justify-center text-3xl">
+        <img src="/public/images/Frame4.svg" alt="Legal Icons">
+      </div>
+      <h3 class="text-xl font-semibold">Legal Chatbots</h3>
+      <p class="text-sm text-gray-700">
+        AI powered assistances that provide instant legal guidance and documents preparation.
+      </p>
+    </div>
+
+    <!-- Service 6 -->
+    <div class="space-y-3">
+       <div class=" flex justify-center text-3xl">
+        <img src="/public/images/Frame5.svg" alt="Legal Icons">
+      </div>
+      <h3 class="text-xl font-semibold">Secure Case Management</h3>
+      <p class="text-sm text-gray-700">
+        End-to-end encrypted platforms for managing sensitive legal cases and client information.
+      </p>
+    </div>
+  </div>
+</section>
+
+  </body>
+</html>
+</html>
